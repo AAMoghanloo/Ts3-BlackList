@@ -1,4 +1,4 @@
-# Ts3-black-list
+# Ts3-BlackList
 
 🐧 Fixing the Blacklist Error in TeamSpeak 3 Client on Linux
 ```
