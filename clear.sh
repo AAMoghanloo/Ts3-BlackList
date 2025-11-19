@@ -5,8 +5,8 @@ RED="\e[31m"
 RESET="\e[0m"
 
 HOSTS_FILE="/etc/hosts"
-LINE1="blacklist.teamspeak.com       127.0.0.1"
-LINE2="blacklist2.teamspeak.com      127.0.0.1"
+LINE1="127.0.0.1    blacklist.teamspeak.com"
+LINE2="127.0.0.1    blacklist2.teamspeak.com"
 
 if [[ $EUID -ne 0 ]]; then
     echo -e "  ${RED}Error: This script must be run as root (sudo).${RESET}"
